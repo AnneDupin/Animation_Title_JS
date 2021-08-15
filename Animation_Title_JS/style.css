@@ -1,0 +1,78 @@
+/* POLICES */
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@200&display=swap');
+*,
+::before,
+::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+}
+
+.acceuil {
+    width: 100%;
+    height: 100vh;
+    /* background: #333;
+    background: url("https://images.unsplash.com/photo-1484417894907-623942c8ee29?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=889&q=80");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;  */
+    background: #333 url(https://images.unsplash.com/photo-1511649475669-e288648b2339?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=889&q=80) center / cover no-repeat;
+}
+
+h1 {
+     font-size: 50px;
+     padding-top: 250px;
+     padding-left: 240px;
+}
+
+.medias-container {
+    display: flex;
+    padding-left: 440px;
+    margin: 20px 0 40px 0;
+
+}
+
+.medias-btn {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #ffd166;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.icones {
+    width: 27px;
+}
+
+.btn {
+   font-family: 'Jost', sans-serif;
+   font-weight: bold;
+    margin-left: 530px;
+    background: transparent;
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 3px;
+    color: #aacc00;
+    transition: all 0.2 ease-in-out;
+    border: solid black;
+}
+
+.btn:hover {
+    background: #e8e8e8;
+    color: #aacc00;
+    border: solid #333;
+}
+
+
+
+/* Sélecteur universel ne prends pas en compte les pseudos éléments */
+/* Toujours Background Position en 1er */
